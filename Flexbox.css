@@ -1,0 +1,64 @@
+@charset "UTF-8"
+/* CSS Document */
+* 
+{
+   box-sizing: border-box;
+}
+.flex-container  
+{
+display: flex;
+flex-wrap: wrap;
+background-color: rgb(110, 243, 243);
+}
+.flex-container > div 
+{
+background-color: aquamarine;
+margin: 10px;
+padding: 20px;
+font-size: 25px;
+}
+.stack > div 
+{
+   flex-direction: row;
+   padding: 20px;
+}
+#container
+{
+   width: 800%;
+   margin: 0 auto;
+}
+.section_L 
+{
+   flex-grow: 3;
+}
+.section_R 
+{
+   flex-grow: 3;
+}
+.flex-responsive 
+{
+   flex: 30%;
+}
+
+
+@media (max-width: 700px) 
+{
+#container 
+{
+   width: 90%;
+   margin: 0 auto;
+
+}
+.flex-responsive 
+{
+   flex: 100%;
+}
+}
+
+@media only screen and (min-width: 700px) {
+   /* Tablets and Desktop */
+}
+
+@media only screen and (min-width: 700px) {
+   /* portrait phone */
+}

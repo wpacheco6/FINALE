@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+.container
+{
+   width:1000px;
+   margin:0 auto;
+   background-color: #2e4e6f;
+}
+
+
+header
+{
+   width:100%;
+   text-align: center;
+}
+
+
+.flex-container
+{
+   display:flex;
+   flex-direction: row;
+   align-items: stretch;
+   height:150px;
+}
+
+
+.flex-container div
+{
+
+    flex-grow:4;
+}
+
+
+.flex-container .flex-nav
+{
+   flex-grow:1;
+   flex-direction: column;
+}
+
+
+footer
+{
+   width:100%;
+   text-align: center;
+}
+
+@media only screen and (min-width: 700px) {
+   /* tablets and desktop */
+}
+@media only screen and (max-width: 700px) {
+   /* phones */
+}
