@@ -1,8 +1,14 @@
 <html lang="en">
 <head>
     <style>
-        p {
+        p 
+        {
             font-family: Arial, Helvetica, sans-serif;
+            color: red;
+        }
+        h1
+        {
+ font-family: Arial, Helvetica, sans-serif;
             color: red;
         }
     Body
@@ -13,6 +19,51 @@
     background-repeat: no-repeat;
     background-size: cover;
     }
+    * 
+{
+box-sizing: border-box;
+}
+.container
+{
+   width: 100px;
+   margin: 0 auto;
+}
+.flex-container
+{
+   display: flex;
+   flex-flow: column wrap;
+   align-items: stretch;
+}
+.flex-container > div 
+{
+   background-color: rgb(15, 158, 247);
+   width: 150px;
+   margin: 20px;
+   text-align: center;
+   line-height: 75px;
+   font-size: 25px;
+   padding: 0 10px 0 10px;
+}
+header
+{
+   width: 100%;
+   height: 30px;
+
+}
+footer
+{
+   width: 100%;
+   height: 50px;
+   
+}
+nav
+{
+   width: 100%;
+   height: 50px;
+   margin: 10px 0 10px 0;
+   padding-top: 10px;
+  
+}
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,16 +71,19 @@
     •<link rel="stylesheet" href="style. css">
 </head>
 <body>
+       <div class="flex-container">
+
     <h1>Welcome to the News page</h1>
+
  <p>For now were only dealing with video games but we plan to try to deal with other pop culture genras like anime for an example. </p>
 
- <a href="index.html">Link to Home page</a>    
+<div> <a href="index.html">Link to Home page</a>    </div>
 
- <a href="About.html">Link to About page/a>    
+<div> <a href="About.html">Link to About page</a>    </div>
 
- <a href="Service.html">Link to Service page</a> 
+<div> <a href="Service.html">Link to Service page</a> </div>
 
- <a href="Contact.html">Link to Contact page</a>   
+<div> <a href="Contact.html">Link to Contact page</a>   </div>
 
 </body>
 </html>
